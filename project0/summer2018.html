@@ -3,13 +3,25 @@
     <head>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="style-sccs.css">
  		<style>
-			HTML {
-				background: url('images/summer2018.jpg');
-				width: 100%;
-				height: 100%;
-				position: relative;
-			}
+
+            @media (min-width: 500px) {
+				HTML {
+					background: url('images/summer2018.jpg');
+					width: 100%;
+					height: 100%;
+					position: relative;
+				}
+            }
+
+            @media (max-width: 499px) {
+				HTML {
+                    background-color: lightblue;
+                }
+            }
+
+
 		</style>
        <title>Summer 2018</title>
     </head>
